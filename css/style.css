@@ -61,11 +61,31 @@ main section {
     flex-wrap: wrap;
 }
 .row-screen .box-users {
+    position: relative;
     width: calc(100% / 7 - 10px);
     margin: 15px 5px;
-    height: 200px;
-    background-color: aqua;
+    height: 140.133px;
 }
+.row-screen .box-users img{
+    display: block;
+    width: 100%;
+}
+.row-screen .box-users button i {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 16px;
+    color: inherit;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.row-screen .box-users button i:hover {
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+
+
+
 /*------------------
     FOOTER
 ------------------*/
