@@ -29,9 +29,11 @@ button {
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.3);
 }
-
 button:hover {
     background-color: rgba(255, 255, 255, 0.5);
+}
+.row {
+    display: flex;
 }
 /*------------------
     HEADER
@@ -41,19 +43,29 @@ header {
 }
 header div {
     text-align: right;
-    margin: 5px 5px 0 0;
+    margin: 5px 5px 40px 0;
 }
 /*------------------
     MAIN
 ------------------*/
 main {
     height: calc(100% - 120px);
-    background-color: blueviolet;
     width: 90%;
     margin: auto;
     overflow-y: auto;
 }
-
+main section {
+    height: 100%;
+}
+.row-screen {
+    flex-wrap: wrap;
+}
+.row-screen .box-users {
+    width: calc(100% / 7 - 10px);
+    margin: 15px 5px;
+    height: 200px;
+    background-color: aqua;
+}
 /*------------------
     FOOTER
 ------------------*/
