@@ -112,6 +112,7 @@ footer section{
     color: red;
     padding: 0 20px;
     height: 100%;
+    cursor: pointer;
 }
 footer .row .row li:not(:last-child) {
     margin-right: 20px;
@@ -119,7 +120,15 @@ footer .row .row li:not(:last-child) {
 footer .row .row li button {
     background-color: transparent;
 }
+footer .row .row li button .fa-angle-up {
+    padding: 3px;
+    border-radius: 5px;
+}
 footer .row .row li button:hover {
     background-color:  rgba(255, 255, 255, 0.4);
 }
+footer .row .row li button:hover .fa-angle-up{
+    background-color:  rgba(255, 255, 255, 0.6);
+}
+
 
